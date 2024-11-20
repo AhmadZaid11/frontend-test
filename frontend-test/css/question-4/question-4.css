@@ -1,0 +1,13 @@
+:root {
+    --main-bg-color: #4CAF50;
+    --main-text-color: white;
+    --padding: 20px;
+}
+
+.variable-box {
+    background: var(--main-bg-color);
+    color: var(--main-text-color);
+    padding: var(--padding);
+    text-align: center;
+    border-radius: 5px;
+}

@@ -1,0 +1,14 @@
+.animated-button {
+    padding: 10px 20px;
+    background: #d20e0e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.animated-button:hover {
+    background: #2219c8;
+    transform: scale(1.1);
+}

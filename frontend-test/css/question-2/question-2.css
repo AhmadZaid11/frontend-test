@@ -1,0 +1,9 @@
+.text::before {
+    content: "Hello. ";
+    color: red;
+}
+
+.text::after {
+    content: "Thank you";
+    color: blue;
+}
